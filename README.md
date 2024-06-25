@@ -1,7 +1,13 @@
-[![Build Status](https://travis-ci.org/stuart-morrison/schemr.svg?branch=master)](https://travis-ci.org/stuart-morrison/schemr)
+<!-- badges: start -->
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/schemr)](https://cran.r-project.org/package=schemr)
+[![downloads](http://cranlogs.r-pkg.org/badges/grand-total/schemr)](https://cran.r-project.org/package=schemr)
+[![R-CMD-check](https://github.com/stuart-morrison/schemr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stuart-morrison/schemr/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
 
 :rainbow: `schemr` package
 ================
+
 
 Convert photos into useable colour schemes
 ------------------------------------------
@@ -108,11 +114,16 @@ ggplot() +
 ### :raised_hands: Colour space conversions
 
 `schemr` also contains functions to convert colour data both to and
-from:
+from the following colour spaces:
 
--   RGB space;
--   XYZ space; and
--   Lab space.
+|From\To|         RGB         |         XYZ         |         Lab         |         HSL         |         HSV        |
+| ---:  |        :---:        |        :---:        |        :---:        |        :---:        |        :---:       |
+|  RGB  |                     | :white_check_mark:  | :white_check_mark:  |  :white_check_mark: | :white_check_mark: |
+|  XYZ  | :white_check_mark:  |                     | :white_check_mark:  |  :white_check_mark: | :white_check_mark: |
+|  Lab  | :white_check_mark:  | :white_check_mark:  |                     |  :white_check_mark: | :white_check_mark: |
+|  HSL  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  |                     | :white_check_mark: |
+|  HSV  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  |                    |
+
 
 Colour conversion constants and functions are provided for sRGB and
 Adobe 1998 RGB spaces, with user ability to apply other conversions for
