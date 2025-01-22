@@ -1,13 +1,13 @@
-2006f052941b5370d259fbe62d87c3e2 *DESCRIPTION
+bd26d85d8a84d570f904fa78ce298def *DESCRIPTION
 92bb2a54daa6a38de760995e7c7b4d38 *NAMESPACE
-5811fa5d44b526b3b7a2f04ff794d700 *NEWS.md
+8415e2c10416070deb30de21bdecd27a *NEWS.md
 4be6dca5bddb123d44438a80034cc95e *R/color-spaces.R
 0c38cd0822446385c38e81d5de8e2d09 *R/colour-space-constants.R
 f913d934b49eb20328c45b34524443e1 *R/extract-colours.R
 001a5916cb8e220a9ebe20ac98d46a3c *R/schemr-class.R
 e6605a77e7040865d76259b15289e8bb *R/schemr.R
 d41d8cd98f00b204e9800998ecf8427e *R/sp-clustering.R
-da0f9ef53fc384ac2e1cba32692ed9ec *README.md
+caaf417c1fbdb6a9a15d9640a4cfbf45 *README.md
 066976c5183505b3c9adf140c7d7de83 *man/hex_to_lab.Rd
 7f8197cd4c92e82a537a8162b82ea4df *man/hex_to_rgb.Rd
 cb8812fd245db49cf5002d577febac58 *man/hex_to_xyz.Rd
